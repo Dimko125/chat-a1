@@ -1,0 +1,85 @@
+@font-face
+{
+	font-family: "Roboto-Regular";
+	src: url("fonts/roboto/Roboto-Regular.ttf");
+}
+
+body
+{
+	margin: 0px;
+	overflow: hidden;
+}
+/*~~~~~~~~~~~~~~~~~~~~~*/
+.SendCont
+{
+	bottom: 0px;
+    position: absolute;
+    margin-bottom: 10px;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+}
+
+.SendField
+{
+	float: left;
+	height: 40px;
+	width: 95%;
+	position: absolute;
+	bottom: 0px;
+	top: 0px;
+}
+.SendButton
+{
+	float: right;
+    height: 40px;
+	width: 5%;
+    min-width: 50px;
+	position: sticky;
+}
+/*~~~~~~~~~~~~~~~~~~~~~*/
+.MainCont
+{
+	border: 1px solid black;
+	box-sizing: border-box;
+	position: absolute;
+	width: 100%;
+	bottom: 60px;
+	top: 0px;
+	text-align: center;
+}
+.MsgCont
+{
+	border: 1px solid black;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 30%;
+	min-width: 450px;
+	text-align: left;
+
+	height: 100%;
+	overflow-y: scroll;
+}
+.Msg
+{
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	/* border: 1px solid black; */
+	border-radius: 5px;
+	padding: 5px;
+
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(115,115,115,0.5);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(115,115,115,0.5);
+	box-shadow: 0px 0px 5px 1px rgba(115,115,115,0.5);
+
+	font-size: 20px;
+	font-family: "Roboto-Regular";
+
+	width: -moz-available;
+	width: -webkit-fill-available;
+	word-wrap: break-word;
+}
